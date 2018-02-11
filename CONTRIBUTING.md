@@ -1,4 +1,4 @@
-## Contributing
+# Contributing
 
 We love pull requests from everyone. 
 
@@ -7,16 +7,16 @@ Everyone are welcome to follow the steps below to participate in this project.
 
 ## Using Github
 
-Fork our repo at : 
+Fork our repo at: 
 
 
-*[https://github.com/UBC-MDS/Stack-Overflow_Text_Analysis_Python](https://github.com/UBC-MDS/Stack-Overflow_Text_Analysis_Python)*
+*[https://github.com/UBC-MDS/SOresponse_Py](https://github.com/UBC-MDS/SOresponse_Py)*
 
 
 Clone the repo:
 
 ```
-git clone https://github.com/your-username/Stack-Overflow_Text_Analysis_Python.git
+git clone https://github.com/your_username/SOresponse_Py.git
 ```
 
 
@@ -35,9 +35,9 @@ and
 git push
 ``` 
 
-the changes to the repo your folked. 
+the changes to your fork. 
 
-Then, [submit a pull request](https://github.com/UBC-MDS/Stack-Overflow_Text_Analysis_Python/compare).
+Then, [submit a pull request](https://github.com/UBC-MDS/SOresponse_Py/compare).
 
 At this point you're waiting on us. We like to at least comment on pull requests within three business days (and, typically, one business day). We may suggest some changes or improvements or alternatives.
 
