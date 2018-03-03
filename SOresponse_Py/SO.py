@@ -28,6 +28,7 @@ def response_stats(url):
     Input:
         url: An object that used the `web_page()` function.
     Output:
+	Returns a list of length 4 that includes 
         n: Returns number of responses
         m: Average reputation score
         t: Top reputation score
