@@ -1,5 +1,5 @@
 import pytest
-import SOresponse_Py as SO
+from SOresponse_Py import SO
 
 url = 'https://stackoverflow.com/questions/68645/static-class-variables-in-python?rq=1'
 
