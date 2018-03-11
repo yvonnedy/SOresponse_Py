@@ -52,4 +52,5 @@ def popular(url, choice):
                 return str_r2
 
         else:
+            # raise an error is the input for choice is not valid
             raise ValueError("Input for choice can only be likes or author!")

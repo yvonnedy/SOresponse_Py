@@ -14,7 +14,7 @@ def test_result():
       assert obs2 == exp2
 
       obs3 = response_stats('https://stackoverflow.com/questions/49206233/how-can-i-convert-this-date-03-01-2018-1200-am-to-2018-03-01-in-c')
-      exp3 = [5, 66804, 529000, 1]
+      exp3 = [5, 66806, 529000, 1]
       assert obs3 == exp3
 
       obs4 = response_stats('https://stackoverflow.com/questions/49218523/highcharts-drilldown-json-from-php-mysql')
