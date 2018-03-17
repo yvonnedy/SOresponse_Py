@@ -7,21 +7,22 @@ def test_typeOfUrl():
       """
       good_url = 'https://stackoverflow.com/questions/68645/static-class-variables-in-python?rq=1'
 
-      bad_url_string = 'fail'
-      bad_url_type = 1231
+      #bad_url_string = 'fail'
+      #bad_url_type = 1231
+      bad_url = 'https://google.com'
 
       # return no error
       web_page(good_url)
 
       # raise type error for bad URL
-      with pytest.raises(MissingSchema):
+      #with pytest.raises(MissingSchema):
           # raise type error
-          web_page(bad_url_string)
+          #web_page(bad_url_string)
 
       # raise type error for int
       with pytest.raises(TypeError):
           # raise type error
-          web_page(bad_url_type)
+          web_page(bad_url)
 
 def test_resultOfWebpage():
       """
