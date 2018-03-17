@@ -7,7 +7,7 @@ def test_typeOfUrl():
       """
       good_url = 'https://stackoverflow.com/questions/68645/static-class-variables-in-python?rq=1'
 
-      bad_url_string = 'fail'
+      bad_url_string = 'http://fail'
       bad_url_type = 1231
 
       # return no error
