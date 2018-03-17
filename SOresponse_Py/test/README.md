@@ -1,13 +1,10 @@
-### Test Result  
-![](../../doc/image/test_result.png)    
-    
 ### Branch Coverage    
    
 `web_page()`:      
 
 | Condition | Test function |
 | --- | -------- |
-| the URL is not a valid SO webpage | `test_typeOfUrl()` |  
+| the URL is not a valid SO webpage | `test_Url()` |  
 | the URL is valid | `test_resultOfWebpage()` | 
      
 `popular()`:   
