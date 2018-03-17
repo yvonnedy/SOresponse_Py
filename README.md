@@ -15,7 +15,7 @@ pip install git+https://github.com/UBC-MDS/SOresponse_Py.git
 
 ### Example of usage in Python
 ```
-from SOresponse_Py.web_page import *
+from SOresponse_Py import *
 
 web_page('https://stackoverflow.com/questions/68645/static-class-variables-in-python?rq=1')
 popular('https://stackoverflow.com/questions/49218133/gulp-js-minifies-uglifies-and-copies-all-the-files-but-still-the-app-in-the-dis', 'likes')
