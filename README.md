@@ -26,7 +26,13 @@ response_stats('https://stackoverflow.com/questions/49206233/how-can-i-convert-t
 
 1. Clone repo
 2. Install pytest (`pip install -U pytest`)
-3. Navigate to root directory of `SOresponse_Py` (this is the repo you just cloned) and run `pytest` 
+3. Navigate to root directory of `SOresponse_Py` (this is the repo you just cloned) and run `pytest`     
+     
+### Package dependencies     
+`bs4`     
+`requests`    
+`numpy`    
+`lxml`
 
 ### Overview
 
