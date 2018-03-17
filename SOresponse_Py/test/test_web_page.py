@@ -1,25 +1,18 @@
 import pytest
 from SOresponse_Py import web_page
 
-def test_typeOfUrl():
+def test_Url():
       """
-      This function tests type of the input argument
+      This function tests whether the input is a valid Stack Overflow webpage
       """
       good_url = 'https://stackoverflow.com/questions/68645/static-class-variables-in-python?rq=1'
 
-      #bad_url_string = 'fail'
-      #bad_url_type = 1231
       bad_url = 'https://google.com'
 
       # return no error
       web_page(good_url)
 
-      # raise type error for bad URL
-      #with pytest.raises(MissingSchema):
-          # raise type error
-          #web_page(bad_url_string)
-
-      # raise type error for int
+      # raise type error for invalid URL
       with pytest.raises(TypeError):
           # raise type error
           web_page(bad_url)
