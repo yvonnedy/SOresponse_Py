@@ -14,7 +14,7 @@ def test_result():
 
       obs2 = response_stats('https://stackoverflow.com/questions/100003/what-are-metaclasses-in-python?rq=1')
       exp2 = {"Author's reputation score": 317000,
-              'Average reputation score': 35526,
+              'Average reputation score': 35527,
               'Number of responses': 17,
               'Top reputation score': 317000}
       assert obs2 == exp2
