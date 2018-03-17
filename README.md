@@ -1,4 +1,6 @@
-# SOresponse_Py
+# SOresponse_Py    
+     
+[![Build Status](https://travis-ci.org/yvonnedy/SOresponse_Py.svg?branch=master)](https://travis-ci.org/yvonnedy/SOresponse_Py)
 
 ### Contributors
 
