@@ -1,3 +1,7 @@
+from bs4 import BeautifulSoup
+import requests
+import re
+
 def web_page(url):
     """
     This function loads Stack Overflow response webpage and returns the title of question.
@@ -8,10 +12,6 @@ def web_page(url):
         qestion: The question being asked on the given Stack Overflow response webpage.
            If unsuccessful corresponding error will be returned.
     """
-
-    from bs4 import BeautifulSoup
-    import requests
-    import re
 
     try:
         # load the webpage

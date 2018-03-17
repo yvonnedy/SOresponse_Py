@@ -1,3 +1,8 @@
+from bs4 import BeautifulSoup
+import requests
+import re
+import numpy as np
+
 def response_stats(url):
     """
     This function returns a list of statistics about the question being asked on a Stack Overflow page.
@@ -8,11 +13,6 @@ def response_stats(url):
 	    list: Returns a list of length 4 that includes number of responses, average reputation score,
               top reputation score and author's reputation score.
     """
-
-    from bs4 import BeautifulSoup
-    import requests
-    import re
-    import numpy as np
 
     # load the webpage and select all responses
     web_data3 = requests.get(url)
@@ -64,5 +64,8 @@ def response_stats(url):
     author_score_int = int(author_score_str)
 
     # put all 4 numbers into a result list
-    result_list = [len(responses), avg_score, top_score, author_score_int]
-    return result_list
+    result_dict = {'Number of responses': len(responses),
+                   'Average reputation score': avg_score,
+                   'Top reputation score': top_score,
+                   "Author's reputation score": author_score_int}
+    return result_dict

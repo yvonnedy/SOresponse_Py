@@ -10,5 +10,5 @@ setup(
     license = 'LICENSE',
     description = 'Analysis of Stack Overflow responses',
     long_description = open('README.md').read(),
-    install_requires = [],
+    install_requires = ['bs4', 'requests', 're', 'numpy'],
 )
