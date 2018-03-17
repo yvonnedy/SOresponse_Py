@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name = 'SOresponse_Py',
-    version = '0.1.0',
+    version = '0.2.0',
     author = 'Ted Thompson, Fang Yang, Ying Dong',
     packages = ['SOresponse_Py'],
     scripts = ['SOresponse_Py/web_page.py', 'SOresponse_Py/popular.py', 'SOresponse_Py/response_stats.py'],
@@ -10,5 +10,5 @@ setup(
     license = 'LICENSE',
     description = 'Analysis of Stack Overflow responses',
     long_description = open('README.md').read(),
-    install_requires = ['bs4', 'requests', 'numpy'],
+    install_requires = ['bs4', 'requests', 'numpy']
 )
