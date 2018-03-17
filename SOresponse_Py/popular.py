@@ -1,3 +1,8 @@
+from bs4 import BeautifulSoup
+import requests
+import re
+import numpy as np
+
 def popular(url, choice):
     """
     This function returns an answer with the most likes or a author accepted answer.
@@ -10,11 +15,6 @@ def popular(url, choice):
     Output:
         reponse: An answer on the webpage in the type of String.
     """
-
-    from bs4 import BeautifulSoup
-    import requests
-    import re
-    import numpy as np
 
     # load the webpage and select all responses
     web_data2 = requests.get(url)
