@@ -10,7 +10,7 @@ def response_stats(url):
     Input:
         url: An object that used the `web_page()` function.
     Output:
-	    list: Returns a list of length 4 that includes number of responses, average reputation score,
+	    list: Returns a dictionary of length 4 that includes number of responses, average reputation score,
               top reputation score and author's reputation score.
     """
 
@@ -63,7 +63,7 @@ def response_stats(url):
 
     author_score_int = int(author_score_str)
 
-    # put all 4 numbers into a result list
+    # put all 4 numbers into a result dictionary
     result_dict = {'Number of responses': len(responses),
                    'Average reputation score': avg_score,
                    'Top reputation score': top_score,

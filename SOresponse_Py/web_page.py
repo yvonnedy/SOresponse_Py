@@ -13,12 +13,12 @@ def web_page(url):
            If unsuccessful corresponding error will be returned.
     """
 
+    # load the webpage
+    web_data1 = requests.get(url)
+    soup1 = BeautifulSoup(web_data1.text, "lxml")
+    # select title of question in webpage
+    question1 = soup1.select("#question-header .question-hyperlink")
     try:
-        # load the webpage
-        web_data1 = requests.get(url)
-        soup1 = BeautifulSoup(web_data1.text, "lxml")
-        # select title of question in webpage
-        question1 = soup1.select("#question-header .question-hyperlink")
         # remove HTML tags using regular expression
         str_q1 = re.sub(r'</?\w+[^>]*>','', str(question1[0]))
         return str_q1
