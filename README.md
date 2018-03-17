@@ -13,9 +13,7 @@ pip install git+https://github.com/UBC-MDS/SOresponse_Py.git
 
 ### Example of usage in Python
 ```
-from SOresponse_Py.web_page import web_page
-from SOresponse_Py.popular import popular
-from SOresponse_Py.response_stats import response_stats
+from SOresponse_Py.web_page import *
 
 web_page('https://stackoverflow.com/questions/68645/static-class-variables-in-python?rq=1')
 popular('https://stackoverflow.com/questions/49218133/gulp-js-minifies-uglifies-and-copies-all-the-files-but-still-the-app-in-the-dis', 'likes')
@@ -62,6 +60,6 @@ The `SOresponse` package is used for text analysis of Stack Overflow responses. 
 
   *Value:*
 
-    Returns a list of length 4 that includes number of responses, average reputation score, top reputation score and author's reputation score.
+    Returns a dictionary of length 4 that includes number of responses, average reputation score, top reputation score and author's reputation score.
 
 Similar packages to `SOresponse` are `Py-StackExchange` for python and `overflowr` for R. `Py-StackExchange` is well managed and has been kept up to date. `overflowr` has been abandon. Their links respectively are https://github.com/lucjon/Py-StackExchange and https://meta.stackexchange.com/questions/174972/stackoverflow-api-for-r.
