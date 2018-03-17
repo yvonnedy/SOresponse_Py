@@ -64,5 +64,8 @@ def response_stats(url):
     author_score_int = int(author_score_str)
 
     # put all 4 numbers into a result list
-    result_list = [len(responses), avg_score, top_score, author_score_int]
-    return result_list
+    result_dict = {'Number of responses': len(responses),
+                   'Average reputation score': avg_score,
+                   'Top reputation score': top_score,
+                   "Author's reputation score": author_score_int}
+    return result_dict
