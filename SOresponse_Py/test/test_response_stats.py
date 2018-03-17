@@ -21,7 +21,7 @@ def test_result():
 
       obs3 = response_stats('https://stackoverflow.com/questions/49206233/how-can-i-convert-this-date-03-01-2018-1200-am-to-2018-03-01-in-c')
       exp3 = {"Author's reputation score": 1,
-              'Average reputation score': 66994,
+              'Average reputation score': 66997,
               'Number of responses': 5,
               'Top reputation score': 530000}
       assert obs3 == exp3
