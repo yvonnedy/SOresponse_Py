@@ -13,10 +13,10 @@ def test_result():
       assert obs1 == exp1
 
       obs2 = response_stats('https://stackoverflow.com/questions/100003/what-are-metaclasses-in-python?rq=1')
-      exp2 = {"Author's reputation score": 317000,
-              'Average reputation score': 35527,
-              'Number of responses': 17,
-              'Top reputation score': 317000}
+      exp2 = {"Author's reputation score": 318000,
+              'Average reputation score': 37460,
+              'Number of responses': 16,
+              'Top reputation score': 318000}
       assert obs2 == exp2
 
       obs3 = response_stats('https://stackoverflow.com/questions/49206233/how-can-i-convert-this-date-03-01-2018-1200-am-to-2018-03-01-in-c')
